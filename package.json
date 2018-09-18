@@ -1,0 +1,19 @@
+{
+  "name": "ejs-tex",
+  "version": "0.0.0",
+  "description": "use ejs as a template of TeX doc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ejs-tex": "cli.js"
+  },
+  "author": "WindProphet",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "ejs": "^2.6.1",
+    "escape-latex": "^1.1.1"
+  }
+}
